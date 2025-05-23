@@ -7,7 +7,7 @@ import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://demo.studiocms.dev/",
+  site: "https://studiocms-demo.netlify.app/",
   output: "server",
   adapter: netlify(),
   integrations: [db(), studioCMS(), devApps()],
