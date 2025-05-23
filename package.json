@@ -1,0 +1,26 @@
+{
+	"name": "users-sgalcheung-documents-200----work-210----project-217---studiocms-studiocms-demo",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"astro": "astro",
+		"studiocms": "studiocms",
+		"db:push": "astro db push --remote",
+		"dev": "astro dev --remote",
+		"build": "astro build --remote",
+		"preview": "astro preview --remote"
+	},
+	"devDependencies": {
+		"@types/node": "^22.13.5",
+		"typescript": "^5.7.3"
+	},
+	"dependencies": {
+		"@astrojs/db": "^0.14.13",
+		"@astrojs/node": "^9.2.1",
+		"@studiocms/blog": "^0.1.0-beta.18",
+		"@studiocms/devapps": "^0.1.0-beta.18",
+		"astro": "^5.7.12",
+		"sharp": "^0.34.1",
+		"studiocms": "^0.1.0-beta.18"
+	}
+}
