@@ -11,4 +11,9 @@ export default defineConfig({
   output: "server",
   adapter: netlify(),
   integrations: [db(), studioCMS(), devApps()],
+  vite: {
+    ssr: {
+      noExternal: ["astro"],
+    },
+  },
 });
